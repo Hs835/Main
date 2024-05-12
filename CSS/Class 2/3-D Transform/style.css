@@ -1,0 +1,27 @@
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    border: 1px solid black;
+    display: inline-flex;
+    margin-left: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    
+}
+
+#translate:hover{
+    transform:perspective(200px) translateZ(-50px);
+}
+
+#scale:hover{
+    transform:perspective(500px) scaleZ(2) rotateY(60deg);
+    
+
+}
+
+#rotate:hover{
+    transform: rotateZ(60deg);
+}
+

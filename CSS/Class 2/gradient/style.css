@@ -1,0 +1,21 @@
+div{
+    margin-bottom: 20px;
+}
+#box1{
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    background-image: linear-gradient(to left,violet,indigo,blue,green,yellow,orange,red);
+}
+#box2{
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    background-image: linear-gradient(to bottom right, rgba(255, 255, 135, 0),red);
+}
+#box3{
+    border: 1px solid black;
+    height: 400px;
+    width: 200px;
+    background-image:radial-gradient(circle,red 5%,yellow 15%,green 50%)
+}

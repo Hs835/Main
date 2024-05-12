@@ -1,0 +1,9 @@
+.box{
+    border: 1px solid black;
+    min-height: 100px;
+    max-height: 200px;
+    width: 600px;
+    overflow:auto;
+}
+/* overflow can be scroll hidden visible and auto
+others are quite self explanitory in auto the scroll bars only comes when in need of it */
