@@ -1,0 +1,51 @@
+.container{
+    height: 300px;
+    border:2px solid black;
+    display: flex;
+    /* flex-direction: row;
+    flex-wrap: wrap;
+    we can do the above or use shortform */
+    flex-flow:row wrap;
+    justify-content:center;
+    align-items:center;
+    /* align-content: flex-start; */
+    /* gap: 50px; */
+    /* align content works on lines/rows on cross axis */
+ 
+}
+/* to convert a container to flex display flex is used */
+/* by default main axis is horizontal */
+/* flex direction can be row-default one column,row reverse,column reverse */
+/* flex wrap keeps the width intact until there is space */
+/* there's also nowrap-default and wrap reverse */
+/* align item by default is streach */
+/* gap can be written as row gap or column gap */
+.box{
+    border: 1px solid brown;
+    width: 50px;
+    background-color: aqua;
+    /* flex-grow: 1; */
+    flex-basis: 100px;
+    /* used to set responsive width i.e. increases if content is more */
+}
+/* flex is shortform for order grow shrink basis */
+
+#box1{
+    order: 1;
+    /* flex-grow: 1; */
+    /* flex-shrink: 2; */
+    /* used to increase the speed of shrinking when squeezed compared to others does not 
+    work properly with flex wrap */
+    align-self: flex-start;
+}
+
+#box2{
+    order: 3;
+    align-self: stretch;
+}
+
+#box3{
+    order: 2;
+    align-self: flex-end;
+}
+/* align self used to set alignment of individual items */

@@ -1,0 +1,7 @@
+so basically there are two axis in a box by default the working axis is horizontal/main axis
+to work on space between elements in horizontal axis justify content is used
+to work on space between elements in vertical axis/ cross axis align items is used
+when we have two or more rows/lines of elements on verical axis and we want to manage them we use align content
+
+these all were when you were applying properties to bada daba / parent div
+now when we apply to the elements inside its called flex items
