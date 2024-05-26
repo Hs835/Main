@@ -1,0 +1,37 @@
+.container{
+    height:700px;
+    background-color: yellow;
+    border: 1px solid red;
+    display: grid;
+    
+    grid-template-columns: 150px 400px 150px;
+    grid-template-rows: 50px 500px 50px;
+    
+    grid-template-areas: 
+    "hd hd hd"
+    "left main right"
+    "ft ft ft";
+    /* gridautorows:minmax(you can give min and max height of row can set it to auto too) */
+}
+/* note:only use elements in area consecutively if you wanna place two same 
+elements in one row if you wanna use like side main side rename to a better like left main right */
+.box{
+    
+    background-color: aqua;
+    border: 1px solid darkgreen;
+}
+#header{
+    grid-area:hd;
+}
+#right{
+    grid-area:right;
+}
+#left{
+    grid-area: left;
+}
+#content{
+    grid-area:main;
+}
+#footer{
+    grid-area:ft;
+}

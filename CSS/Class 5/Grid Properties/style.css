@@ -1,0 +1,44 @@
+.container{
+    background-color: yellow;
+    border: 1px solid brown;
+    height: 600px;
+    width: 600px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3,100px);
+    grid-template-rows: repeat(2,100px);
+
+    /* justify-content: start;
+    justify-content: end;
+    justify-content: center;
+    justify-content: space-around;
+    justify-content:space-between;
+    justify-content:space-evenly; */
+
+    /* align-content: space-evenly; */
+    /* align content same as justify content but for vertical axis */
+
+    align-items: start;
+    align-items: end;
+    align-items: baseline;
+    align-items: center;
+    align-items: stretch; /*default one*/
+
+    /* justify content works on positioning while working on horizontal axis
+    align items works on vertical axis and on the items inside grid i.e the playground for it will be the space of grid box not the entire container */
+
+}
+.box{
+    background-color: aqua;
+    border:1px solid darkgreen;
+}
+#B1{
+    justify-self: start;
+    /* same as align items but onlty for individual element and works on horzontal axis */
+    align-self: center;
+    /* same as align items but onlty for individual element */
+
+}
+/* 
+also place items a short hand property for justify items and align items
+and place self for justify self and align self */
