@@ -1,0 +1,26 @@
+.container{
+    height: 213px;
+    /* width: 500px; */
+    background-color: yellow;
+    border: 1px solid red;
+}
+
+.box{
+    height: 212px;
+    width: 212px;
+    background-color: aqua;
+    border: 1px solid green;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation:h1 3s ease 1s 4 normal ;
+}
+
+@keyframes h1 {
+    from{
+        width: 212px;
+    }
+    to{
+        width: 800px;
+    }
+}
+
+/* we can also use percent values in keyframes */

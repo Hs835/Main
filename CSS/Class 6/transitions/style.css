@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: green;
+    height: 500px;
+    width: 500px;
+    border: 3px solid red;
+    display: flex;
+}
+
+.box{
+    height: 150px;
+    width: 150px;
+    margin: 20px;
+    background-color: aqua;
+    border: 2px solid orange;
+    /* transition: 5s; */
+    transition:background-color 2s ease-in 1s;
+    /* we can make our own functions like ease using chrome inspect element */
+}
+
+.box:hover{
+    background-color: brown;
+    
+}
