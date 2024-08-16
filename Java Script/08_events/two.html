@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Welcome!</h1>
+    <button id="stop">Stop</button>
+</body>
+</html>
+<script>
+    function sayMyName(){
+        console.log("harsh")
+    }
+    setTimeout(sayMyName, 5000)
+    function changeHeading(){
+        document.querySelector('h1').innerHTML = 'User'
+
+    }
+
+    headingChanger = setTimeout(changeHeading,5000)
+    document.querySelector('#stop').addEventListener
+    ('click',function (){
+        clearTimeout(headingChanger)
+        console.log("stoped")
+    })
+</script>

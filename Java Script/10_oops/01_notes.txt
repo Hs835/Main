@@ -1,0 +1,24 @@
+# classes in javascript
+
+javascript didn't had classes before ES6 as it is a prototype based
+language and classes are just syntactical sugar over the existing 
+prototype based inheritence mechanism
+
+# OOps
+oop is a just a programming paradime (the way in which we code based on objects)
+objects- are collections of properties(variables) and methods
+
+# use of OOP
+
+-Object literal
+
+-Constructor Function
+-Prototypes
+-Classes
+-Instances(new, this)
+
+# 4 pillars of oops
+Abstraction
+Encapsulation
+Inheritence
+Polymorphism
